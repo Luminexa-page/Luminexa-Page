@@ -18,7 +18,7 @@ body {
     color: white;
 }
 .titulo {
-    font-size: 700%;
+    font-size: 500%;
 }
 
 
@@ -66,13 +66,13 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: cyan;
+    color: white;
 }
 a:visited {
-    color: orange;
+    color: cyan;
 }
 a:active {
-    color: orange;
+    color: cyan;
 }
 
 
@@ -129,3 +129,33 @@ a:active {
     color: rgba(0, 0, 255, 0.5);
 }
 
+
+
+.barras {
+    background-color: sienna;
+    
+    border-radius: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.progress-bar-container {
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    padding: 3px;
+}
+.progress {
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    background: linear-gradient(to right, #ff0000, #00ff00);
+}
